@@ -1,0 +1,175 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:300..800|Roboto:100;300;400;500;700;900";
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Open Sans", "Courier New", Courier, monospace;
+  color: #1b1f21;
+}
+
+.boxes {
+  display: flex;
+}
+
+aside {
+  background-color: #fff;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+}
+
+#usuario {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #e8ebe4;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+}
+
+.info img {
+  height: 30px;
+  border-radius: 50%;
+  border-color: #e8ebe4;
+}
+
+.texto {
+  padding: 0 10px;
+}
+
+.info h3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+.info p {
+  font-size: 10px;
+  font-weight: 100;
+  color: #828485;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+}
+
+.iconos i {
+  padding: 8px;
+  font-size: 20px;
+  color: #828485;
+}
+
+#boton {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #e8ebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton a {
+  padding: 10px 50px;
+  background-color: #a491d2;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+
+#boton p:hover {
+  background-color: #cdc3e6;
+}
+
+#boton p:focus {
+  background-color: #d4dcff;
+}
+
+#mensajes ul {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#mensajes li {
+  border: 1px solid #e8ebe4;
+}
+
+#mensajes a {
+  text-decoration: none;
+  color: #1b1f21;
+  padding: 15px 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+#mensajes .text {
+  padding: 5px 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mensajes img {
+  height: 50px;
+  border-radius: 50%;
+  border-color: #e8ebe4;
+}
+
+#mensajes h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#mensajes p {
+  font-size: 14px;
+  font-weight: 350;
+}
+
+main {
+  background-color: #f6f6f6;
+  padding: 10px;
+  border: 1px solid #e8ebe4;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 75%;
+}
+
+#principal {
+  height: 200px;
+  margin: 15px;
+}
+
+main h2 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+main span {
+  font-weight: 500;
+}
